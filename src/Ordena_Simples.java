@@ -8,7 +8,7 @@ public class Ordena_Simples {
         Scanner entrada = new Scanner(System.in);
 
         for(int i=0;i<10;i++){
-            System.out.printf("\nDigite Posição #%d",i+1);
+            System.out.printf("\nDigite Posição #%d ",i+1);
             vetor[i]= entrada.nextInt();
         }
 
